@@ -28,3 +28,18 @@ a.btn-primary:hover{
 .navbar {
     box-shadow: var(--box-shadow);
 }
+/* Styles pour la barre de navigation visible */
+.nav-visible {
+    background-color: #ffffff; /* Couleur de fond */
+    transition: background-color 0.3s; /* Transition fluide */
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    opacity: 1; /* Opacité complète */
+}
+
+/* Styles pour la barre de navigation cachée */
+.nav-hidden {
+    background-color: transparent; /* Fond transparent */
+    transition: background-color 0.3s; /* Transition fluide */
+    box-shadow: none; /* Pas d'ombre */
+    opacity: 0.8; /* Opacité légèrement réduite */
+}

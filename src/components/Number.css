@@ -1,0 +1,6 @@
+#number{
+    background: linear-gradient(rgba(var(--c-brand-rgb),0.8),rgba(0,0,0,0.8)),url(../../public/assets/images/bureau.jpg);
+    background-position: center;
+    background-size: cover;
+
+}

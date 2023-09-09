@@ -1,0 +1,37 @@
+/* Footer */
+.bg-white {
+    background-color: white;
+}
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-top .col-md-6 .logo {
+    width: 10%;
+}
+
+.footer-top p.text-black {
+    color: var(--c-body);
+}
+
+.footer-top a {
+    color: var(--c-brand);
+}
+
+.footer-top a:hover {
+    color: var(--c-brand-light);
+}
+
+.footer-top .col-md-12.text-center p.text-black {
+    margin-top: 40px;
+}
+
+.footer-top .col-md-12.text-center p.text-black a {
+    color: var(--c-body);
+}
+
+.footer-top .col-md-12.text-center p.text-black a:hover {
+    color: var(--c-brand);
+}

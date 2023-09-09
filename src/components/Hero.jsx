@@ -4,7 +4,7 @@ import "../components/Hero.css";
 
 const HeroSection = () => {
     return (
-        <section id="hero" className="min-vh-100 d-flex align-items-center text-center">
+        <section id="hero" className="min-vh-100 d-flex align-items-center text-center mb-5">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
