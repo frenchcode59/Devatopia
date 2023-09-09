@@ -4,14 +4,14 @@ import "../App.css";
 import "../components/Number.css";
 
 const NumberItem = ({ number, description }) => (
-    <div className="col-lg-3 col-sm-6">
+    <div className="col-lg-3 col-sm-6 mb-5">
         <h1 className="text-white display-4">{number}</h1>
         <h6 className="text-uppercase mt-3 mb-0 text-white">{description}</h6>
     </div>
 );
 
 const NumberSection = () => (
-    <section id="number" className="section-padding">
+    <section id="number" className="section-padding mb-5">
         <div className="container">
             <div className="row g-5">
                 <NumberItem

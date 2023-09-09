@@ -37,16 +37,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#home">Accueil</a>
+                            <a className="nav-link" id="top" href="#top">Accueil</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#team">Technologies et services</a>
+                            <a className="nav-link" href="#technologies">Technologies et services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#Technologies">Notre equipe</a>
+                            <a className="nav-link" href="#team">Notre equipe</a>
                         </li>
                     </ul>
-                    <a href="" className="btn btn-primary ms-lg-3">contactez nous</a>
+                    <a href="#contact" className="btn btn-primary ms-lg-3">contactez nous</a>
                 </div>
             </div>
         </nav>

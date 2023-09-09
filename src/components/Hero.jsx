@@ -4,8 +4,8 @@ import "../components/Hero.css";
 
 const HeroSection = () => {
     return (
-        <section id="hero" className="min-vh-100 d-flex align-items-center text-center mb-5">
-            <div className="container">
+        <section id="hero" className="min-vh-100 d-flex align-items-center text-center mb-5 mt-5">
+            <div className="container mb-5">
                 <div className="row">
                     <div className="col-12">
                         <h1 className="text-uppercase fw-semibold display-1 text-white">
@@ -18,8 +18,8 @@ const HeroSection = () => {
                             mieux à vos besoins. Un projet sur mesure.
                         </h5>
                         <div>
-                            <a href="#" className="btn btn-primary me-2 mt-5">contactez nous</a>
-                            <a href="#" className="btn btn-light ms-3 mt-5">Nos projet</a>
+                            <a href="#contact" className="btn btn-primary me-2 mt-5">contactez nous</a>
+                            <a href="#project" className="btn btn-light ms-3 mt-5">Nos projet</a>
                         </div>
                     </div>
                 </div>
